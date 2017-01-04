@@ -96,6 +96,8 @@ a {
 	box-shadow: 0px 2px 5px #000;
 	position: relative;
 	z-index: 10;
+	min-width: 100%;
+	position: fixed;
 }
 
 #navigation-image {
@@ -131,7 +133,7 @@ a {
 #carousel {
 	background-color: #3d6098;
 	padding-bottom: 75px;
-	padding-top: 45px;
+	padding-top: 75px;
 	position: relative;
 	z-index: 5;
 }
@@ -171,13 +173,13 @@ a {
 #next {
   right: 170px;
   background-image: url('assets/img/arrowright.png');
-  top: 300px;
+  top: 350px;
 }
 
 #prev {
   left: 170px;
   background-image: url('assets/img/arrowleft.png');
-  top: 300px;
+  top: 350px;
 }
 
 #left-arrow-image {
@@ -254,7 +256,7 @@ a {
 
 /*Grid Layout*/
 #grid-layout {
-	background-color: #f04b4c;
+	background-color: #e7e7e7;
 	padding-bottom: 75px;
 	padding-top: 45px;
 }
@@ -262,7 +264,7 @@ a {
 #grid-layout-title {
 	font-size: 2rem;
 	text-align: center;
-	color: #e7e7e7;
+	color: #213159;
 }
 
 #grid-container {
