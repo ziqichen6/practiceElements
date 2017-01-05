@@ -46,28 +46,28 @@ $(document).ready(function() {
   });
 
   // Dropdown Menu
-  $('#navigation-coding').hover(function(){ 
-      $('.coding-dropdown-hover').show();
-    }, function(){ 
-      $('.coding-dropdown-hover').hide();
-  });
+  // $('#navigation-coding').hover(function(){ 
+  //     $('.coding-dropdown-hover').show();
+  //   }, function(){ 
+  //     $('.coding-dropdown-hover').hide();
+  // });
 
-  $('#navigation-programming').hover(function(){ 
-      $('.programming-dropdown-hover').show();
-    }, function(){ 
-      $('.programming-dropdown-hover').hide();
-  });
+  // $('#navigation-programming').hover(function(){ 
+  //     $('.programming-dropdown-hover').show();
+  //   }, function(){ 
+  //     $('.programming-dropdown-hover').hide();
+  // });
 
-  $('#navigation-design').hover(function(){ 
-      $('.design-dropdown-hover').show();
-    }, function(){ 
-      $('.design-dropdown-hover').hide();
-  });
+  // $('#navigation-design').hover(function(){ 
+  //     $('.design-dropdown-hover').show();
+  //   }, function(){ 
+  //     $('.design-dropdown-hover').hide();
+  // });
   
-  $('#navigation-about').hover(function(){ 
-      $('.about-dropdown-hover').show();
-    }, function(){ 
-      $('.about-dropdown-hover').hide();
-  });
+  // $('#navigation-about').hover(function(){ 
+  //     $('.about-dropdown-hover').show();
+  //   }, function(){ 
+  //     $('.about-dropdown-hover').hide();
+  // });
 
 });

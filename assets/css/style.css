@@ -119,6 +119,7 @@ a {
 	transition: font-size 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out;
 	transition: text-decoration 0.2s ease-in-out;
+	margin-bottom: none;
 }
 
 .navigation-link:hover {
@@ -131,13 +132,26 @@ a {
 	clear:both;
 }
 
-.dropdown-list-item {
-	list-style: none;
+.navigation-item:hover .dropdown-list{
 	display: block;
-	padding: 0;
 }
 
-.coding-dropdown::before {
+.navigation-item:focus .dropdown-list{
+	display: block;
+}
+
+.dropdown-list {
+	display:none;
+	padding-top: 20px;
+}
+
+.dropdown-list-item {
+	list-style: none;
+	padding: 0;
+	display: block;
+}
+
+/*.coding-dropdown::before {
 	content: "";
 	position: absolute;
     border-width: 6px;
@@ -146,7 +160,7 @@ a {
     border-style: solid;
     border-color: transparent transparent #e7e7e7 transparent;
     padding: 0;
-}
+}*/
 
 .coding-dropdown {
 	position: absolute;
@@ -155,7 +169,7 @@ a {
 	padding: 0;
 }
 
-.programming-dropdown::before {
+/*.programming-dropdown::before {
 	content: "";
 	position: absolute;
     border-width: 6px;
@@ -163,7 +177,7 @@ a {
     top: -8%;
     border-style: solid;
     border-color: transparent transparent #e7e7e7 transparent;
-}
+}*/
 
 .programming-dropdown {
 	position: absolute;
@@ -172,7 +186,7 @@ a {
 	padding: 0;
 }
 
-.design-dropdown::before {
+/*.design-dropdown::before {
 	content: "";
 	position: absolute;
     border-width: 6px;
@@ -180,7 +194,7 @@ a {
     top: -8%;
     border-style: solid;
     border-color: transparent transparent #e7e7e7 transparent;
-}
+}*/
 
 .design-dropdown {
 	position: absolute;
@@ -189,7 +203,7 @@ a {
 	padding: 0;
 }
 
-.about-dropdown::before {
+/*.about-dropdown::before {
 	content: "";
 	position: absolute;
     border-width: 6px;
@@ -197,7 +211,7 @@ a {
     top: -8%;
     border-style: solid;
     border-color: transparent transparent #e7e7e7 transparent;
-}
+}*/
 
 .about-dropdown {
 	position: absolute;
@@ -210,7 +224,7 @@ a {
 
 
 
-
+/*
 .coding-dropdown::before {
 	content: "";
 	position: absolute;
@@ -221,26 +235,7 @@ a {
     border-color: transparent transparent #e7e7e7 transparent;
     padding: 0;
 }
-
-
-
-.coding-dropdown-hover {
-	display:none;
-}
-
-
-.programming-dropdown-hover {
-	display:none;
-}
-
-.design-dropdown-hover {
-	display:none;
-}
-
-.about-dropdown-hover {
-	display:none;
-}
-
+*/
 
 
 
