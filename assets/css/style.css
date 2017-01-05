@@ -149,6 +149,7 @@ a {
 	list-style: none;
 	padding: 0;
 	display: block;
+	box-shadow: 2px 2px 6px #333;
 }
 
 .coding-dropdown::before {
@@ -167,7 +168,6 @@ a {
 	background-color: transparent;
 	padding: 0;
 	padding-top: 10px;
-	box-shadow: 2px 2px 6px #333;
 }
 
 .programming-dropdown::before {
@@ -185,7 +185,6 @@ a {
 	background-color: transparent;
 	padding: 0;
 	padding-top: 10px;
-	box-shadow: 2px 2px 6px #333;
 }
 
 .design-dropdown::before {
@@ -203,7 +202,6 @@ a {
 	background-color: transparent;
 	padding: 0;
 	padding-top: 10px;
-	box-shadow: 2px 2px 6px #333;
 }
 
 .about-dropdown::before {
@@ -221,7 +219,6 @@ a {
 	background-color: transparent;
 	padding: 0;
 	padding-top: 10px;
-	box-shadow: 2px 2px 6px #333;
 }
 
 
