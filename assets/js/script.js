@@ -71,4 +71,29 @@ $(document).ready(function() {
   });
 
 
+  $('#navigation-coding').click(function(){ 
+      $('.coding-dropdown').show();
+    }, function(){ 
+      $('.coding-dropdown').hide();
+  });
+
+  $('#navigation-programming').click(function(){ 
+      $('.programming-dropdown').show();
+    }, function(){ 
+      $('.programming-dropdown').hide();
+  });
+
+  $('#navigation-design').click(function(){ 
+      $('.design-dropdown').show();
+    }, function(){ 
+      $('.design-dropdown').hide();
+  });
+  
+  $('#navigation-about').click(function(){ 
+      $('.about-dropdown').show();
+    }, function(){ 
+      $('.about-dropdown').hide();
+  });
+
+
 });
