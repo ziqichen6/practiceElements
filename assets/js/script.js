@@ -1,11 +1,13 @@
 $(document).ready(function() {
 
+  // Information toolbox
   $("#info-icon-specific").hover(function(){
     $("#information-box").removeClass("hidden");
   }, function(){
     $("#information-box").addClass("hidden");
   });
 
+  // Carousel Slide
 
   var currentIndex = 0,
   items = $('.carousel-item'),
@@ -41,6 +43,31 @@ $(document).ready(function() {
       currentIndex = itemAmt - 1;
     }
     cycleItems();
+  });
+
+  // Dropdown Menu
+  $('#navigation-coding').hover(function(){ 
+      $('.coding-dropdown').show();
+    }, function(){ 
+      $('.coding-dropdown').hide();
+  });
+
+  $('#navigation-programming').hover(function(){ 
+      $('.programming-dropdown').show();
+    }, function(){ 
+      $('.programming-dropdown').hide();
+  });
+
+  $('#navigation-design').hover(function(){ 
+      $('.design-dropdown').show();
+    }, function(){ 
+      $('.design-dropdown').hide();
+  });
+  
+  $('#navigation-about').hover(function(){ 
+      $('.about-dropdown').show();
+    }, function(){ 
+      $('.about-dropdown').hide();
   });
 
 
