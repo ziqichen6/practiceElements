@@ -47,53 +47,27 @@ $(document).ready(function() {
 
   // Dropdown Menu
   $('#navigation-coding').hover(function(){ 
-      $('.coding-dropdown').show();
+      $('.coding-dropdown-hover').show();
     }, function(){ 
-      $('.coding-dropdown').hide();
+      $('.coding-dropdown-hover').hide();
   });
 
   $('#navigation-programming').hover(function(){ 
-      $('.programming-dropdown').show();
+      $('.programming-dropdown-hover').show();
     }, function(){ 
-      $('.programming-dropdown').hide();
+      $('.programming-dropdown-hover').hide();
   });
 
   $('#navigation-design').hover(function(){ 
-      $('.design-dropdown').show();
+      $('.design-dropdown-hover').show();
     }, function(){ 
-      $('.design-dropdown').hide();
+      $('.design-dropdown-hover').hide();
   });
   
   $('#navigation-about').hover(function(){ 
-      $('.about-dropdown').show();
+      $('.about-dropdown-hover').show();
     }, function(){ 
-      $('.about-dropdown').hide();
+      $('.about-dropdown-hover').hide();
   });
-
-
-  $('#navigation-coding').click(function(){ 
-      $('.coding-dropdown').show();
-    }, function(){ 
-      $('.coding-dropdown').hide();
-  });
-
-  $('#navigation-programming').click(function(){ 
-      $('.programming-dropdown').show();
-    }, function(){ 
-      $('.programming-dropdown').hide();
-  });
-
-  $('#navigation-design').click(function(){ 
-      $('.design-dropdown').show();
-    }, function(){ 
-      $('.design-dropdown').hide();
-  });
-  
-  $('#navigation-about').click(function(){ 
-      $('.about-dropdown').show();
-    }, function(){ 
-      $('.about-dropdown').hide();
-  });
-
 
 });
