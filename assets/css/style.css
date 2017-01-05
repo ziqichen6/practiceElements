@@ -151,91 +151,95 @@ a {
 	display: block;
 }
 
-/*.coding-dropdown::before {
-	content: "";
-	position: absolute;
-    border-width: 6px;
-    left:50%;
-    top: -8%;
-    border-style: solid;
-    border-color: transparent transparent #e7e7e7 transparent;
-    padding: 0;
-}*/
-
-.coding-dropdown {
-	position: absolute;
-	margin-top: 10px;
-	box-shadow: 2px 2px 6px #333;
-	padding: 0;
-}
-
-/*.programming-dropdown::before {
-	content: "";
-	position: absolute;
-    border-width: 6px;
-    left:50%;
-    top: -8%;
-    border-style: solid;
-    border-color: transparent transparent #e7e7e7 transparent;
-}*/
-
-.programming-dropdown {
-	position: absolute;
-	margin-top: 10px;
-	box-shadow: 2px 2px 6px #333;
-	padding: 0;
-}
-
-/*.design-dropdown::before {
-	content: "";
-	position: absolute;
-    border-width: 6px;
-    left:50%;
-    top: -8%;
-    border-style: solid;
-    border-color: transparent transparent #e7e7e7 transparent;
-}*/
-
-.design-dropdown {
-	position: absolute;
-	margin-top: 10px;
-	box-shadow: 2px 2px 6px #333;
-	padding: 0;
-}
-
-/*.about-dropdown::before {
-	content: "";
-	position: absolute;
-    border-width: 6px;
-    left:50%;
-    top: -8%;
-    border-style: solid;
-    border-color: transparent transparent #e7e7e7 transparent;
-}*/
-
-.about-dropdown {
-	position: absolute;
-	margin-top: 10px;
-	box-shadow: 2px 2px 6px #333;
-	padding: 0;
-}
-
-
-
-
-
-/*
 .coding-dropdown::before {
 	content: "";
 	position: absolute;
     border-width: 6px;
     left:50%;
-    top: -8%;
+    top: 0%;
     border-style: solid;
     border-color: transparent transparent #e7e7e7 transparent;
     padding: 0;
 }
-*/
+
+.coding-dropdown {
+	position: absolute;
+	background-color: transparent;
+	padding: 0;
+	padding-top: 10px;
+	box-shadow: 2px 2px 6px #333;
+}
+
+.programming-dropdown::before {
+	content: "";
+	position: absolute;
+    border-width: 6px;
+    left:50%;
+    top: 0%;
+    border-style: solid;
+    border-color: transparent transparent #e7e7e7 transparent;
+}
+
+.programming-dropdown {
+	position: absolute;
+	background-color: transparent;
+	padding: 0;
+	padding-top: 10px;
+	box-shadow: 2px 2px 6px #333;
+}
+
+.design-dropdown::before {
+	content: "";
+	position: absolute;
+    border-width: 6px;
+    left:50%;
+    top: 0%;
+    border-style: solid;
+    border-color: transparent transparent #e7e7e7 transparent;
+}
+
+.design-dropdown {
+	position: absolute;
+	background-color: transparent;
+	padding: 0;
+	padding-top: 10px;
+	box-shadow: 2px 2px 6px #333;
+}
+
+.about-dropdown::before {
+	content: "";
+	position: absolute;
+    border-width: 6px;
+    left:50%;
+    top: 0%;
+    border-style: solid;
+    border-color: transparent transparent #e7e7e7 transparent;
+}
+
+.about-dropdown {
+	position: absolute;
+	background-color: transparent;
+	padding: 0;
+	padding-top: 10px;
+	box-shadow: 2px 2px 6px #333;
+}
+
+
+
+
+
+
+.coding-dropdown::before {
+	content: "";
+	position: absolute;
+    border-width: 6px;
+    left:50%;
+    top: 0%;
+    border-style: solid;
+    border-color: transparent transparent #e7e7e7 transparent;
+    padding: 0;
+}
+
 
 
 
