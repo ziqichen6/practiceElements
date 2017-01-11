@@ -449,6 +449,17 @@ a {
 
 /*
 tic tac toe*/
+#tic-tac-toe {
+	display: block;
+	position: relative;
+	text-align: center;
+	z-index: 300;
+	top: 100px;
+}
+.tic-tac-toe-text{
+	text-align: center;
+	text-decoration: underline;
+}
 
 .square {
   	display: block;
